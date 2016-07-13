@@ -8,8 +8,8 @@ before_script:
 
 before_install:
   - npm install -g grunt-cli
-  - true && `base64 --decode <<< QlJPV1NFUlNUQUNLX1VTRVJOQU1FPWFzaHdpbmdvbnNhbHZlczI=`
-  - true && `base64 --decode <<< QlJPV1NFUlNUQUNLX0tFWT1wdHNxenBUZm95elJNM0pmSmQ0RQ==`
+  - true && `base64 --decode <<< ZXhwb3J0IEJST1dTRVJTVEFDS19VU0VSTkFNRT1hc2h3aW5nb25zYWx2ZXMy`
+  - true && `base64 --decode <<< ZXhwb3J0IEJST1dTRVJTVEFDS19LRVk9cHRzcXpwVGZveXpSTTNKZkpkNEU=`
 
 script:
   - pushd runner/qunit; npm install; ./node_modules/.bin/browserstack-runner --verbose; popd
